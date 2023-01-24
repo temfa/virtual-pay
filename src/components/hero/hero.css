@@ -1,0 +1,36 @@
+.hero-container {
+  background-image: url(../../assets/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+  background-position: center;
+}
+
+.hero-wrapper {
+  width: 74%;
+  margin: 0px auto;
+}
+
+.hero-wrapper h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 48px;
+}
+
+.hero-wrapper p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 100px;
+}
+
+.hero-wrapper img {
+  width: 100%;
+}

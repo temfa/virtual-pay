@@ -1,0 +1,38 @@
+.security-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 280px 0px 0px;
+  background: #f1f4f8;
+}
+
+.security-text {
+  margin-left: 100px;
+}
+
+.security-text h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 77px;
+  width: 633px;
+  color: #f46036;
+}
+
+.security-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 48px 0px 96px;
+  width: 782px;
+  color: #292d32;
+}
+
+.security-img {
+  width: 39%;
+}
+
+.security-img img {
+  width: 100%;
+}

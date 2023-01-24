@@ -1,0 +1,69 @@
+.bills-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bills-wrapper,
+.card-wrapper {
+  width: 50%;
+}
+
+.bills-wrapper {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84));
+  padding: 457px 0px 172px;
+}
+
+.bills-text {
+  width: 54%;
+  margin: 0px auto;
+}
+
+.bills-text h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 55px;
+  margin-bottom: 48px;
+  color: #ffffff;
+}
+
+.bills-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #e1e1e1;
+  margin-bottom: 65px;
+}
+
+.card-wrapper {
+  background: linear-gradient(0deg, rgba(9, 0, 34, 0.86), rgba(9, 0, 34, 0.86));
+  padding: 158px 0px 172px;
+}
+
+.card-details {
+  margin-left: 143px;
+}
+
+.card-text {
+  margin-top: 64px;
+}
+
+.card-text h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 55px;
+  color: #ffffff;
+}
+
+.card-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 48px 0px 96px;
+  width: 422px;
+  color: #e1e1e1;
+}

@@ -1,0 +1,63 @@
+.trade-container {
+  background-image: url(../../assets/trade.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px;
+  background-color: black;
+}
+
+.trade-wrapper {
+  display: flex;
+  width: 88%;
+  justify-content: space-between;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.trade-text {
+  width: 48%;
+}
+
+.trade-text h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+  color: white;
+}
+
+.trade-text span {
+  color: #ab9ec8;
+}
+
+.trade-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin-top: 48px;
+  color: #ffffff;
+}
+
+.trade-text button {
+  background: #610c89;
+  border-radius: 29.5238px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.619px;
+  line-height: 37px;
+  font-family: "Roboto", sans-serif;
+  padding: 12px 23px;
+  border: none;
+  margin-top: 95px;
+  color: #ffffff;
+}
+
+.trade-img {
+  width: 48%;
+}
+
+.trade-img img {
+  width: 100%;
+}

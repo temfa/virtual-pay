@@ -1,0 +1,84 @@
+.welcome-container {
+  width: 100%;
+  background-color: #000000;
+  padding: 88px 0px;
+}
+
+.welcome-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.welcome-text {
+  width: 51%;
+}
+
+.welcome-text > h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  width: 730px;
+  color: #ffffff;
+}
+
+.welcome-text > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #fcfdfd;
+  margin-top: 45px;
+}
+
+.app-store {
+  display: flex;
+  align-items: center;
+  width: 59%;
+  justify-content: space-between;
+  margin-top: 69px;
+}
+
+.app-store .google-play,
+.app-store .apple-store {
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  width: 47%;
+  padding: 14px 0px;
+}
+
+.google-play p,
+.apple-store p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #7a301b;
+  margin-bottom: 3px;
+}
+
+.apple-store h2,
+.google-play h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.1765px;
+  line-height: 22px;
+  text-align: center;
+  color: #ff6666;
+}
+
+.apple-store img,
+.google-play img {
+  margin: 0px 12px;
+}
+
+.welcome-img {
+  width: 46%;
+}
+
+.welcome-img img {
+  width: 100%;
+}
