@@ -1,6 +1,8 @@
 import React from "react";
 import FaqSingle from "../faqSingle/faqSingle";
 import "./faq.css";
+import FaqIcon from "../../assets/faq-icon.svg";
+import Logo from "../logo/logo";
 
 const Faq = () => {
   const data = [
@@ -15,13 +17,15 @@ const Faq = () => {
   return (
     <div className="faq-wrapper">
       <div className="faq-container">
+        <div className="faq-icon">
+          <Logo logo={FaqIcon} bgColor="#f46036" />
+        </div>
         <h2>Frequently asked questions </h2>
         <p>Get answers to all the questions you have and boost your knowledge about Virtual Pay PRD </p>
         <div className="faq-cont">
           {data?.map((item, index) => {
             return <FaqSingle question={item.question} key={index} />;
           })}
-          <h2>View all</h2>
         </div>
       </div>
     </div>

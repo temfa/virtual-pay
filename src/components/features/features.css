@@ -1,9 +1,16 @@
 .features-container {
-  width: 80%;
-  margin: 100px auto;
+  width: 100%;
+  padding: 56px 0px 80px;
+  background: #f6f6f6;
+}
+
+.features-icon {
+  width: 88px;
+  margin: 0px auto;
 }
 
 .features-container h2 {
+  margin-top: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;

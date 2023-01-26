@@ -8,7 +8,7 @@ const Button = ({ text, bgColor, action }) => {
     border-radius: 30px;
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 16px 24px;
     font-style: normal;
     font-weight: 400;
     font-size: 23.619px;

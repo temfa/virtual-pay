@@ -1,39 +1,35 @@
 .faq-wrapper {
-  background: rgba(255, 255, 255, 0.6);
+  background: #ffffff;
   width: 100%;
 }
 
 .faq-container {
   width: 74%;
-  margin: 200px auto 157px;
+  margin: 100px auto 80px;
+}
+
+.faq-icon {
+  width: 88px;
+  margin: 0px auto;
 }
 
 .faq-container h2 {
   font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 31px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
   text-align: center;
-  color: #610c89;
+  margin: 24px 0px;
+  color: #1f2024;
 }
 
 .faq-container p {
   font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 31px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #696a6c;
   width: 592px;
-  margin: 60px auto;
-  text-align: center;
-  color: #1c1c1c;
-}
-
-.faq-cont h2 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 31px;
-  text-align: center;
-  margin-top: 84px;
-  color: #610c89;
+  margin: 0px auto 72px;
 }

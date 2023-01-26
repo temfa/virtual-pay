@@ -5,10 +5,15 @@ import BBC from "../../assets/bbc.svg";
 import Amazon from "../../assets/amazon.svg";
 import Ebay from "../../assets/ebay.svg";
 import Forbes from "../../assets/forbes.svg";
+import Logo from "../logo/logo";
+import Felogo from "../../assets/feature-icon.svg";
 
 const Features = () => {
   return (
     <div className="features-container" id="features">
+      <div className="features-icon">
+        <Logo logo={Felogo} bgColor="#610c89" />
+      </div>
       <h2>As Featured in</h2>
       <div className="features-wrapper">
         <img src={CNN} alt="Logo" />

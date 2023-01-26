@@ -1,13 +1,18 @@
 import React from "react";
 import "./hero.css";
 import Video from "../../assets/video.png";
+import HeroLogo from "../../assets/hero-logo.svg";
+import Logo from "../logo/logo";
 
 const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero-wrapper">
-        <h2>The Financial Hero App</h2>
-        <p>A multi currency e-wallet that allows you to send and receive FX, spend and send money at the best possible rates, and also payment of Bills.</p>
+        <div className="hero-logo">
+          <Logo logo={HeroLogo} bgColor="#610C89" />
+        </div>
+        <h2>How Virtual Pay PRD Works</h2>
+        <p>Here is a video guide on how Virtual Pay PRD Works.</p>
         <img src={Video} alt="video" />
       </div>
     </div>
