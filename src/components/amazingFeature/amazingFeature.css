@@ -104,6 +104,26 @@
   padding-top: 45px;
   transition: 1s all ease;
   margin-bottom: 32px;
+  position: relative;
+}
+
+.swap-lines {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.swap-speak {
+  position: absolute;
+  left: 48%;
+  top: 20px;
+}
+
+.swap-speak-white {
+  display: none;
+  position: absolute;
+  left: 48%;
+  top: 20px;
 }
 
 .swap-cont {
@@ -134,11 +154,20 @@
   color: white;
 }
 
+.swap:hover .swap-speak {
+  display: none;
+}
+
+.swap:hover .swap-speak-white {
+  display: block;
+}
+
 .easy {
   background: #f6f6f6;
   border-radius: 24px;
   padding-top: 45px;
   transition: 1s all ease;
+  position: relative;
 }
 
 .easy-cont {
@@ -146,6 +175,25 @@
   justify-content: space-between;
   align-items: center;
   margin: 0px 74px 0px 38px;
+}
+
+.easy-lines {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.easy-speak {
+  position: absolute;
+  top: 20px;
+  left: 45%;
+}
+
+.easy-speak-white {
+  position: absolute;
+  top: 20px;
+  left: 45%;
+  display: none;
 }
 
 .easy h2 {
@@ -163,6 +211,14 @@
 
 .easy:hover {
   background-color: #610c89;
+}
+
+.easy:hover .easy-speak {
+  display: none;
+}
+
+.easy:hover .easy-speak-white {
+  display: block;
 }
 
 .easy:hover h2 {

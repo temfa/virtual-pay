@@ -19,6 +19,10 @@
   width: 51%;
 }
 
+.welcome-text > img {
+  width: 80%;
+}
+
 .welcome-text > h2 {
   font-style: normal;
   font-weight: 500;
