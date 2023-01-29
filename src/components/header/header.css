@@ -1,17 +1,15 @@
 .header-container {
+  width: 100%;
+  background: #1b1b1b;
+}
+
+.header-cont {
   display: flex;
   width: 88%;
-  margin: 40px auto;
+  margin: 0px auto;
+  padding: 40px 0px;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.02) 0%,
-    rgba(255, 255, 255, 0.07) 27.6%,
-    rgba(255, 255, 255, 0.15) 48.44%,
-    rgba(255, 255, 255, 0.07) 73.44%,
-    rgba(255, 255, 255, 0.02) 100%
-  );
 }
 
 .header-logo h2 {
@@ -29,11 +27,11 @@
 
 .nav-links {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   line-height: 23px;
+  color: #ffffff;
   margin-left: 32px;
-  color: #1c1c1c;
   cursor: pointer;
 }
 

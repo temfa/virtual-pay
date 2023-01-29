@@ -1,0 +1,170 @@
+.amazing-feature {
+  width: 84%;
+  margin: 56px auto 80px;
+}
+
+.amazing-logo {
+  width: 88px;
+  margin: 0px auto;
+}
+
+.amazing-feature > h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin: 24px 0px;
+  color: #1f2024;
+}
+
+.amazing-feature > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  width: 709px;
+  margin: 0px auto;
+  text-align: center;
+  color: #696a6c;
+}
+
+.amazing-container {
+  margin-top: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.virtual {
+  width: 41%;
+  background: #f1e6f7;
+  border-radius: 24px;
+  padding: 24px 0px;
+  transition: 1s all ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.virtual-big {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+.virtual-cont {
+  width: 89%;
+  margin: 0px auto;
+  position: relative;
+  z-index: 2;
+}
+
+.virtual-half {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.virtual-orange {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.virtual-cont img {
+  width: 100%;
+}
+
+.virtual-cont h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  margin: 34px auto 0px;
+  width: 284px;
+  color: #1f2024;
+}
+
+.virtual:hover {
+  background-color: #000000;
+}
+
+.virtual:hover h2 {
+  color: white;
+}
+
+.amazing-wrapper {
+  width: 57%;
+}
+
+.swap {
+  background: #feefeb;
+  border-radius: 24px;
+  padding-top: 45px;
+  transition: 1s all ease;
+  margin-bottom: 32px;
+}
+
+.swap-cont {
+  align-items: center;
+  display: flex;
+  margin: 0px 37px 0px 59px;
+  justify-content: space-between;
+}
+
+.swap-cont h2 {
+  width: 176px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #1f2024;
+}
+
+.swap-cont span {
+  color: #610c89;
+}
+
+.swap:hover {
+  background-color: #f46036;
+}
+
+.swap:hover .swap-cont h2 {
+  color: white;
+}
+
+.easy {
+  background: #f6f6f6;
+  border-radius: 24px;
+  padding-top: 45px;
+  transition: 1s all ease;
+}
+
+.easy-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 74px 0px 38px;
+}
+
+.easy h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  width: 176px;
+  color: #1f2024;
+}
+
+.easy span {
+  color: #f46036;
+}
+
+.easy:hover {
+  background-color: #610c89;
+}
+
+.easy:hover h2 {
+  color: white;
+}

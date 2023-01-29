@@ -1,15 +1,20 @@
 import React from "react";
 import "./welcome.css";
-import WelcomeImg from "../../assets/welcome.png";
+import WelcomePhone from "../../assets/welcome-phone.png";
+import WelcomeCard from "../../assets/welcome-card.png";
 import Apple from "../../assets/apple.svg";
 import Google from "../../assets/Google-Play.svg";
+import Line from "../../assets/line.svg";
 
 const Welcome = () => {
   return (
     <div className="welcome-container">
       <div className="welcome-wrapper">
         <div className="welcome-text">
-          <h2>Make Payment and money move without stress </h2>
+          <h2>
+            Make <span className="span-first">Payment</span> and money move without <span className="span-second">stress</span>
+          </h2>
+          <img src={Line} alt="line" />
           <p>Virtual Pay PRD is a simple and secure way to send and receive money the fast and easy way. Instantly transfer between your accounts both local and international</p>
           <div className="app-store">
             <div className="google-play">
@@ -29,7 +34,10 @@ const Welcome = () => {
           </div>
         </div>
         <div className="welcome-img">
-          <img src={WelcomeImg} alt="welcome" />
+          <div className="welcome-img-cont">
+            <img src={WelcomeCard} alt="welcome" className="welcome-card" />
+            <img src={WelcomePhone} alt="welcome" />
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./bills.css";
-import BillImg from "../../assets/bills-img.png";
+import BillImg from "../../assets/bills-img-trimmy.png";
 import BillLogo from "../../assets/bills-icon.svg";
 import Logo from "../logo/logo";
 import Button from "../button/button";

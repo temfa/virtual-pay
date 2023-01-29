@@ -1,14 +1,15 @@
 import React from "react";
+import AmazingFeature from "../../components/amazingFeature/amazingFeature";
 import Bills from "../../components/bills/bills";
 import Cards from "../../components/cards/cards";
 import Faq from "../../components/faq/faq";
 import Features from "../../components/features/features";
+import Footer from "../../components/footer/footer";
 import Header from "../../components/header/header";
 import Hero from "../../components/hero/hero";
-// import Money from "../../components/money/money";
-// import Security from "../../components/security/security";
-// import Trade from "../../components/trade/trade";
+import Testimonials from "../../components/testimonials/testimonials";
 import Welcome from "../../components/welcome/welcome";
+import Chat from "../../assets/chat.svg";
 import "./landing.css";
 
 const Landing = () => {
@@ -16,14 +17,17 @@ const Landing = () => {
     <div className="landing-container">
       <Header />
       <Welcome />
+      <AmazingFeature />
       <Hero />
-      {/* <Money /> */}
-      {/* <Trade /> */}
       <Bills />
-      {/* <Security /> */}
       <Cards />
       <Faq />
       <Features />
+      <Testimonials />
+      <Footer />
+      <div className="chat-cont">
+        <img src={Chat} alt="chat" />
+      </div>
     </div>
   );
 };
