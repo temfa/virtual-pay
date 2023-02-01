@@ -1,6 +1,8 @@
 .header-container {
   width: 100%;
   background: #1b1b1b;
+  /* position: fixed;
+  z-index: 20; */
 }
 
 .header-cont {
@@ -23,6 +25,7 @@
 .header-nav {
   display: flex;
   align-items: center;
+  transition: 1s all ease;
 }
 
 .nav-links {
@@ -52,4 +55,72 @@
   line-height: 21px;
   color: #ffffff;
   margin-left: 32px;
+}
+
+.header-action {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-nav button {
+    padding: 18px 20px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .header-cont {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .header-container {
+    position: relative;
+  }
+
+  .header-cont {
+    width: 88%;
+  }
+
+  .header-action {
+    display: block;
+  }
+
+  .header-bars {
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .header-times {
+    font-size: 35px;
+    color: red;
+    cursor: pointer;
+  }
+
+  .header-nav {
+    flex-direction: column;
+    position: absolute;
+    left: -300px;
+    transition: 1s all ease;
+    top: 100px;
+  }
+
+  .header-nav-active {
+    left: 0px;
+    transition: 1s all ease;
+    width: 100%;
+    background-color: white;
+    z-index: 15;
+  }
+
+  .nav-links {
+    color: #1b1b1b;
+    padding: 24px 0px;
+  }
+
+  .header-nav button {
+    padding: 18px 56px;
+    margin: 24px 0px;
+  }
 }

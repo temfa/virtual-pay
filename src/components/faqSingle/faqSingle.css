@@ -7,6 +7,7 @@
   align-items: center;
   padding: 24px 40px;
   margin-top: 30px;
+  width: 100%;
 }
 
 .faq-single h3 {
@@ -15,4 +16,16 @@
   font-size: 32px;
   line-height: 31px;
   color: #f46036;
+}
+
+@media screen and (max-width: 780px) {
+  .faq-single {
+    margin-top: 8px;
+  }
+
+  .faq-single h3 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
 }

@@ -40,12 +40,12 @@ const AmazingFeature = () => {
               </h2>
               <SwapSpeak color="#F46036" className="swap-speak" />
               <SwapSpeak color="white" className="swap-speak-white" />
-              <img src={Swap} alt="swap" />
+              <img src={Swap} alt="swap" className="swap-img" />
             </div>
           </div>
           <div className="easy">
             <div className="easy-cont">
-              <img src={Easy} alt="easy" />
+              <img src={Easy} alt="easy" className="easy-img" />
               <EasySpeak color="#610C89" className="easy-speak" />
               <EasySpeak color="#ffffff" className="easy-speak-white" />
               <h2>

@@ -9,14 +9,14 @@
   width: 81%;
   left: 9%;
   position: absolute;
-  top: -50%;
+  top: -30%;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.download-container h2 {
+.download-middle > h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -122,4 +122,103 @@
 
 .footer-copy span:last-child {
   color: #610c89;
+}
+
+@media screen and (max-width: 1024px) {
+  .download-middle {
+    position: absolute;
+    width: 81%;
+    margin: 32px auto;
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .download-app {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .download-container {
+    top: -20%;
+  }
+
+  .download-middle > h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  .download-app .app-store {
+    flex-direction: column;
+  }
+
+  .download-app .apple-store,
+  .download-app .google-play {
+    width: 100% !important;
+    margin-top: 24px;
+  }
+
+  .download-app {
+    margin-top: 0px;
+  }
+
+  .footer-cont,
+  .footer-copy {
+    flex-direction: column;
+  }
+
+  .footer-text,
+  .footer-link,
+  .footer-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-text h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .footer-text p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 24px 0px;
+  }
+
+  .footer-socials {
+    margin: 0px auto;
+  }
+
+  .footer-link,
+  .footer-links {
+    margin-top: 24px;
+  }
+
+  .footer-link p,
+  .footer-links p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .footer-copy {
+    text-align: center;
+    padding: 24px 0px;
+  }
+
+  .footer-copy p {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .footer-copy p:first-child {
+    margin-top: 0px;
+  }
 }

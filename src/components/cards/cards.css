@@ -56,3 +56,44 @@
   color: #f6f6f6;
   width: 85%;
 }
+
+@media screen and (max-width: 1024px) {
+  .cards-img {
+    display: none;
+  }
+
+  .cards-text {
+    width: 100%;
+  }
+
+  .cards-wrapper {
+    padding: 32px 0px;
+  }
+
+  .cards-logo {
+    width: 48px;
+    margin: 0px auto;
+  }
+
+  .cards-text h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  .cards-text p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    width: 100%;
+    margin: 8px 0px 16px;
+  }
+
+  .cards-text button {
+    margin: 0px auto;
+    display: block;
+    padding: 12px 16px;
+  }
+}

@@ -108,7 +108,7 @@
   position: relative;
 }
 
-.welcome-img:hover .welcome-card {
+/* .welcome-img:hover .welcome-card {
   animation: GFG 5s linear;
 }
 
@@ -120,7 +120,7 @@
   100% {
     transform: rotate(360deg) translateY(100px) rotate(-360deg);
   }
-}
+} */
 
 .welcome-img-cont {
   width: 85%;
@@ -139,6 +139,77 @@
   z-index: 10;
 }
 
-/* .welcome-img img {
-  width: 100%;
-} */
+@media screen and (max-width: 1024px) {
+  .welcome-wrapper {
+    flex-direction: column;
+  }
+
+  .welcome-img,
+  .welcome-text,
+  .welcome-img-cont {
+    width: 100%;
+  }
+
+  .welcome-img-cont {
+    justify-content: center;
+  }
+
+  .welcome-text > h2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .app-store {
+    width: 100%;
+  }
+
+  .welcome-text > h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .welcome-container {
+    padding: 50px 0px;
+  }
+
+  .app-store {
+    width: 88%;
+    margin: 45px auto;
+  }
+
+  .apple-store h2,
+  .google-play h2 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .apple-store p,
+  .google-play p {
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  .welcome-text > h2 {
+    font-size: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .welcome-text > img {
+    display: block;
+    margin: 0px auto;
+  }
+
+  .welcome-text > p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #f1e6f7;
+  }
+}

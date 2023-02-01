@@ -83,3 +83,78 @@
   position: relative;
   z-index: 2;
 }
+
+@media screen and (max-width: 1024px) {
+  .bills-text {
+    margin-left: 0px;
+    z-index: 5;
+    position: relative;
+  }
+
+  .bills-img {
+    width: 47%;
+  }
+
+  .bills-img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bills-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .bills-cont {
+    padding: 40px 0px;
+  }
+
+  .bills-container {
+    flex-direction: column;
+    width: 87%;
+  }
+
+  .bills-text {
+    width: 100%;
+  }
+
+  .bills-logo {
+    width: 48px;
+    margin: 0px auto;
+  }
+
+  .bills-text h2 {
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 16px 0px 0px;
+  }
+
+  .bills-text p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    width: 100%;
+    margin: 8px 0px 16px;
+  }
+
+  .bills-text button {
+    margin: 0px auto;
+    display: block;
+    padding: 12px 16px;
+  }
+
+  .curved-arrow {
+    display: none;
+  }
+
+  .bills-img {
+    width: 100%;
+    margin-top: 32px;
+  }
+}

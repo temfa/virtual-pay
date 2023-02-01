@@ -15,7 +15,7 @@ const Faq = () => {
     { question: "Where can I use my generated  Virtual card? ", reply: "" },
   ];
   return (
-    <div className="faq-wrapper">
+    <div className="faq-wrapper" id="faq">
       <div className="faq-container">
         <div className="faq-icon">
           <Logo logo={FaqIcon} bgColor="#f46036" />

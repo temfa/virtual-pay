@@ -19,7 +19,9 @@ const Bills = () => {
       <img src={GreyHalf} alt="grey" className="grey-half" />
       <div className="bills-container">
         <div className="bills-text">
-          <Logo logo={BillLogo} bgColor="#F46036" />
+          <div className="bills-logo">
+            <Logo logo={BillLogo} bgColor="#F46036" />
+          </div>
           <h2>Payment of Bills and subscriptions.</h2>
           <p>Ensure a seamless payment platform, where users can pay with naira wallet and the merchants get the equivalent in their currency.</p>
           <Button bgColor="#F46036" text="Learn More" />

@@ -26,3 +26,20 @@
   align-items: center;
   display: flex;
 }
+
+@media screen and (max-width: 780px) {
+  .features-container {
+    padding: 40px 0px;
+  }
+
+  .features-container h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 32px;
+  }
+
+  .features-wrapper img {
+    width: 17%;
+  }
+}

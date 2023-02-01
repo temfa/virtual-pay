@@ -224,3 +224,101 @@
 .easy:hover h2 {
   color: white;
 }
+
+@media screen and (max-width: 980px) {
+  .amazing-feature {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .amazing-feature {
+    width: 88%;
+    margin: 40px auto;
+  }
+
+  .amazing-feature > p {
+    width: 100%;
+  }
+
+  .amazing-container {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+
+  .virtual,
+  .amazing-wrapper {
+    width: 100%;
+  }
+
+  .swap {
+    margin: 24px 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .amazing-feature > h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 16px 0px 8px;
+  }
+
+  .amazing-feature > p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .swap-cont {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .easy-cont {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .swap,
+  .easy {
+    padding: 0px;
+  }
+
+  .swap-cont h2,
+  .easy h2 {
+    margin: 24px 0px;
+    text-align: center;
+  }
+
+  .virtual-cont h2,
+  .swap-cont h2,
+  .easy h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .easy-cont .easy-img,
+  .swap-cont .swap-img {
+    width: 72%;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    z-index: 5;
+  }
+
+  .swap-speak,
+  .swap-speak-white {
+    top: 60px;
+    left: 0%;
+  }
+
+  .easy-speak,
+  .easy-speak-white {
+    left: 80%;
+    top: 70px;
+  }
+}

@@ -24,7 +24,9 @@ const Cards = () => {
             </div>
           </div>
           <div className="cards-text">
-            <Logo bgColor="#610C89" logo={cardsIcon} />
+            <div className="cards-logo">
+              <Logo bgColor="#610C89" logo={cardsIcon} />
+            </div>
             <h2>Get Instant Virtual & Physical card online.</h2>
             <p>Users can create a wallet and link their account & banks easily in like 2mins and get virtual cards issued.</p>
             <Button text="Learn More" bgColor="#610C89" />
