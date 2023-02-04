@@ -10,6 +10,15 @@ const Logo = ({ logo, bgColor }) => {
     align-items: center;
     background: ${bgColor};
     border-radius: 100px;
+
+    @media screen and (max-width: 500px) {
+      width: 48px;
+      height: 48px;
+
+      img {
+        width: 16px;
+      }
+    }
   `;
 
   return (

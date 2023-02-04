@@ -1,5 +1,5 @@
 .faq-single {
-  background: #feefeb;
+  background: #f6f6f6;
   border-radius: 100px;
   display: flex;
   box-sizing: border-box;
@@ -12,7 +12,7 @@
 
 .faq-single h3 {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 31px;
   color: #f46036;
@@ -24,7 +24,6 @@
   }
 
   .faq-single h3 {
-    font-weight: 500;
     font-size: 12px;
     line-height: 14px;
   }

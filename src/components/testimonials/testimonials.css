@@ -133,8 +133,21 @@
     margin: 0px auto;
   }
 
-  .testimonial-single {
+  .testimonial-single,
+  .testimonial-wrapper {
     width: 100% !important;
+  }
+
+  .testimonial-img {
+    width: 32%;
+  }
+
+  .testimonial-img img {
+    width: 100%;
+  }
+
+  .star-group img {
+    width: 12px;
   }
 }
 

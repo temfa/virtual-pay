@@ -6,7 +6,7 @@ import Amazon from "../../assets/amazon.svg";
 import Ebay from "../../assets/ebay.svg";
 import Forbes from "../../assets/forbes.svg";
 import Logo from "../logo/logo";
-import Felogo from "../../assets/feature-icon.svg";
+import Felogo from "../../assets/featured-icon.svg";
 
 const Features = () => {
   return (

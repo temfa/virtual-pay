@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./testimonials.css";
-import FaqIcon from "../../assets/faq-icon.svg";
+import FaqIcon from "../../assets/testimonial-icon.svg";
 import Logo from "../logo/logo";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

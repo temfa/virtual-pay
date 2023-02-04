@@ -2,9 +2,10 @@ import React from "react";
 import "./welcome.css";
 import WelcomePhone from "../../assets/welcome-phone.png";
 import WelcomeCard from "../../assets/welcome-card.png";
-import Apple from "../../assets/apple.svg";
 import Google from "../../assets/Google-Play.svg";
 import Line from "../../assets/line.svg";
+import Arrow from "../../assets/arrow-up.svg";
+import Apple from "../svgComponents/apple/apple";
 
 const Welcome = () => {
   return (
@@ -25,7 +26,8 @@ const Welcome = () => {
               </div>
             </div>
             <div className="apple-store">
-              <img src={Apple} alt="apple" />
+              <Apple color="white" className="apple-white" />
+              <Apple color="black" className="apple-black" />
               <div>
                 <p>AVAILABLE ON THE</p>
                 <h2>Apple Store</h2>
@@ -40,6 +42,7 @@ const Welcome = () => {
           </div>
         </div>
       </div>
+      <img src={Arrow} alt="arrow" className="arrow-up" />
     </div>
   );
 };

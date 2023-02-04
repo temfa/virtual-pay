@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import First from "../../assets/white-spot.svg";
 import Second from "../../assets/white-spot2.svg";
-import Apple from "../../assets/apple.svg";
+import Apple from "../svgComponents/apple/apple";
 import Google from "../../assets/Google-Play.svg";
 import Facebook from "../../assets/facebook.svg";
 import Twitter from "../../assets/twitter.svg";
@@ -28,7 +28,8 @@ const Footer = () => {
                 </div>
               </div>
               <div className="apple-store">
-                <img src={Apple} alt="apple" />
+                <Apple color="white" className="apple-white" />
+                <Apple color="black" className="apple-black" />
                 <div>
                   <p>AVAILABLE ON THE</p>
                   <h2>Apple Store</h2>

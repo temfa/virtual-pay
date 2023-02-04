@@ -1,6 +1,6 @@
 .header-container {
   width: 100%;
-  background: #1b1b1b;
+  background: #20042e;
   /* position: fixed;
   z-index: 20; */
 }
@@ -43,16 +43,16 @@
 } */
 
 .header-nav button {
-  background: #ff6666;
-  border-radius: 60px;
+  background: #f46036;
+  border-radius: 100px;
   border: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
   padding: 18px 56px;
   cursor: pointer;
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
   color: #ffffff;
   margin-left: 32px;
 }
@@ -78,6 +78,14 @@
     position: relative;
   }
 
+  .header-logo {
+    width: 87px;
+  }
+
+  .header-logo img {
+    width: 100%;
+  }
+
   .header-cont {
     width: 88%;
   }
@@ -87,13 +95,13 @@
   }
 
   .header-bars {
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     cursor: pointer;
   }
 
   .header-times {
-    font-size: 35px;
+    font-size: 25px;
     color: red;
     cursor: pointer;
   }

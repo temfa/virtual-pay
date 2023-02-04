@@ -1,5 +1,5 @@
 .footer-container {
-  background: #13021b;
+  background: #20042e;
   position: relative;
 }
 
@@ -151,14 +151,15 @@
     text-align: center;
   }
 
-  .download-app .app-store {
-    flex-direction: column;
-  }
-
   .download-app .apple-store,
   .download-app .google-play {
-    width: 100% !important;
     margin-top: 24px;
+    padding: 12px 0px !important;
+  }
+
+  .download-app .apple-store svg,
+  .download-app .google-play img {
+    margin: 0px 4px !important;
   }
 
   .download-app {
