@@ -58,3 +58,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .faq-icon {
+    width: 48px;
+  }
+}

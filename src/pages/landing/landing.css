@@ -9,3 +9,9 @@
   cursor: pointer;
   z-index: 99999;
 }
+
+@media screen and (max-width: 500px) {
+  .chat-cont img {
+    width: 48px;
+  }
+}

@@ -43,3 +43,9 @@
     width: 17%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .features-icon {
+    width: 48px;
+  }
+}

@@ -167,4 +167,12 @@
     font-size: 8px;
     line-height: 9px;
   }
+
+  .testimonial-logo {
+    width: 48px;
+  }
+
+  .testimonial-details img {
+    width: 30%;
+  }
 }
