@@ -48,4 +48,19 @@
   .features-icon {
     width: 48px;
   }
+
+  .features-wrapper {
+    overflow-x: scroll;
+    width: unset;
+  }
+
+  .features-wrapper img {
+    width: 79px;
+    margin-left: 40px;
+    display: block;
+  }
+
+  .features-wrapper img:first-child {
+    margin-left: 0px;
+  }
 }
