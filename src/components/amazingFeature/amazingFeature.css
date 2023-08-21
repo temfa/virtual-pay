@@ -1,6 +1,7 @@
 .amazing-feature {
   width: 84%;
   margin: 56px auto 80px;
+  max-width: 1200px;
 }
 
 .amazing-logo {
